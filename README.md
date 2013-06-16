@@ -1,8 +1,13 @@
-Bits-n-Pieces
+Example-Makefiles
 =============
 
-Randome Peices of code, makefiles, libraries, etc.
-All the fun things you might need during a PhD.
+Two makefiles that build either an executable, or an executable and a library from c++ code, using gcc.
 
-(Not sure if fun is the correct word there...)
+Assumes that every header file is contained in a directory called ```include``` and use ```.h``` as the file extension.
+All implementation files must be in ```src``` and have a file extension of ```.cxx```
 
+This can be customised by changing the variables at the top of the file
+
+Usage
+----
+Type ```make``` and all executables will be built, otherwise type ```make <your executable name>``` and that executable alone will be created.
