@@ -10,4 +10,4 @@ This can be customised by changing the variables at the top of the file
 
 Usage
 ----
-Type ```make``` and all executables will be built, otherwise type ```make <your executable name>``` and that executable alone will be created.
+Type ```make``` and all executables will be built, otherwise type ```make <your_executable_name>``` and that executable alone will be created.
